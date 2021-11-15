@@ -1,5 +1,5 @@
 import { Container, Grid, Segment } from "semantic-ui-react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Left from "./components/Left";
 import Nav from "./components/Nav";
 import About from "./containers/About";
@@ -20,7 +20,7 @@ function App() {
                         <Nav />
                         <Segment>
                             <Routes>
-                                <Route path="/" element={<Project />} />
+                                <Route path="" element={<Project />} />
                                 <Route path="/about" element={<About />} />
                                 <Route path="/education" element={<Education />} />
                                 <Route path="/experience" element={<Experience />} />

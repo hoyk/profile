@@ -17,21 +17,21 @@ const Education = () => {
                 <Grid.Column computer={12} mobile={16}>
                     <Item.Group>
                         <EducationItem
-                            img="/images/NCCU.png"
+                            img="images/NCCU.png"
                             title="National Chengchi University"
                             dep="Banking, 2016 ~ Now"
                             meta="Taipei, Taiwan"
                         />
                         <Divider />
                         <EducationItem
-                            img="/images/NCCU.png"
+                            img="images/NCCU.png"
                             title="National Chengchi University"
                             dep="MBA, Graduate Institute of Technology and Innovation Management, 2009 ~ 2011"
                             meta="Taipei, Taiwan"
                         />
                         <Divider />
                         <EducationItem
-                            img="/images/THU.png"
+                            img="images/THU.png"
                             title="Tonghai University"
                             dep="Computer Science, 1999 ~ 2003"
                             meta="Taichung, Taiwan"
