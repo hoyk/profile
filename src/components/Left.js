@@ -13,7 +13,7 @@ const Left = () => {
                     </Header>
                 </div>
 
-                <Image src="/images/mypic2.jpg" size="small" circular centered style={{ marginTop: "20px" }} />
+                <Image src="images/mypic2.jpg" size="small" circular centered style={{ marginTop: "20px" }} />
                 <Header>
                     <Header.Subheader>
                         <Container textAlign="justified">
