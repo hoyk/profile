@@ -20,7 +20,7 @@ function App() {
                         <Nav />
                         <Segment>
                             <Routes>
-                                <Route path="/" element={<Project />} />
+                                <Route path="" element={<Project />} />
                                 <Route path="/about" element={<About />} />
                                 <Route path="/education" element={<Education />} />
                                 <Route path="/experience" element={<Experience />} />

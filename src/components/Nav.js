@@ -13,25 +13,25 @@ const Nav = () => {
                 </Menu.Item>
             </Link> */}
 
-            <Link to="/experience">
+            <Link to="/experience" style={{ padding: "3px 1px 3px 1px" }}>
                 <Menu.Item name="experience" active={active === "experience"} onClick={handleItemClick}>
                     EXPERIENCE
                 </Menu.Item>
             </Link>
 
-            <Link to="/education">
+            <Link to="/education" style={{ padding: "3px 1px 3px 1px" }}>
                 <Menu.Item name="education" active={active === "education"} onClick={handleItemClick}>
                     EDUCATION
                 </Menu.Item>
             </Link>
 
-            <Link to="/skills">
+            <Link to="/skills" style={{ padding: "3px 1px 3px 1px" }}>
                 <Menu.Item name="skills" active={active === "skills"} onClick={handleItemClick}>
                     SKILLS
                 </Menu.Item>
             </Link>
 
-            <Link to="/projects">
+            <Link to="/projects" style={{ padding: "3px 1px 3px 1px" }}>
                 <Menu.Item name="projects" active={active === "projects"} onClick={handleItemClick}>
                     PROJECTS
                 </Menu.Item>
