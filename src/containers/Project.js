@@ -10,10 +10,10 @@ const Project = () => {
             </Segment>
             <Card.Group stackable itemsPerRow={2}>
                 <ProjectItem
-                    img="/images/TraderToGoMain.png"
-                    header="Auto Trading"
-                    meta="C#.NET, MySQL, SQLite"
-                    description="This project is created for Futures contracts auto trading. It collects strategies buying and selling signals from trading software Marticharts and deliver signals directly to brokers ordering system. It supports trading strategies management, proportion ordering, ordering contracts replacement, real-time position monitoring and profit/loss calculation (charting)."
+                    img="/images/vttw.png"
+                    header="U.S. stocks"
+                    meta="Python, JavaScript, Django, ReactJS, CSS, MySQL, Postgre SQL"
+                    description="This project is created for demonstrating US stock market information. Data include individual stock info along with company basic data, financial report, earning calendars. Filter ETFs and ADRs with specific categories, types, and regions. Other information such as corporate actions, FIX connection monitoring,…etc."
                 />
                 <ProjectItem
                     img="/images/Quote.png"
@@ -21,6 +21,7 @@ const Project = () => {
                     meta="Python, MySQL, Redis, PyQT"
                     description="Backend quote system for TAIFEX Futures, The program gets real-time quote from broker's streaming and process those tick data to kbar and front-end trading information. Products includes major Futures contracts, major stock symbols and major FOREX & Indices Futures. "
                 />
+
                 <ProjectItem
                     img="/images/taiquant_1.png"
                     header="TX Watch I"
@@ -33,7 +34,12 @@ const Project = () => {
                     meta="Python, Flask, Mongo, MySQL, JavaScript, CSS, Redis, Plotly"
                     description="This is created for monitoring the trend of major stocks and futures in both Taiwan and foreign market. Charts and figures are arranged and displayed by the up and down factors with eye-catching color and arrangement."
                 />
-
+                <ProjectItem
+                    img="/images/TraderToGoMain.png"
+                    header="Auto Trading"
+                    meta="C#.NET, MySQL, SQLite"
+                    description="This project is created for Futures contracts auto trading. It collects strategies buying and selling signals from trading software Marticharts and deliver signals directly to brokers ordering system. It supports trading strategies management, proportion ordering, ordering contracts replacement, real-time position monitoring and profit/loss calculation (charting)."
+                />
                 <ProjectItem
                     img="/images/PositionWatch.png"
                     header="Position Watch"

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu } from "semantic-ui-react";
+import { Menu, Icon } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -7,11 +7,11 @@ const Nav = () => {
     const handleItemClick = (e, { name }) => setActive(name);
     return (
         <Menu borderless>
-            <Link to="/about">
+            {/* <Link to="/about">
                 <Menu.Item name="about" active={active === "about"} onClick={handleItemClick}>
                     ABOUT ME
                 </Menu.Item>
-            </Link>
+            </Link> */}
 
             <Link to="/experience">
                 <Menu.Item name="experience" active={active === "experience"} onClick={handleItemClick}>
@@ -36,6 +36,20 @@ const Nav = () => {
                     PROJECTS
                 </Menu.Item>
             </Link>
+
+            <Menu.Menu position="right">
+                <Menu.Item>
+                    <a href="https://www.linkedin.com/in/ykangho/" target="_blank">
+                        <Icon name="linkedin" size="large" color="blue" />
+                    </a>
+                    <a href="mailto:ykang.ho@gmail.com">
+                        <Icon name="mail" size="large" color="grey" />
+                    </a>
+                    <a href="skype:ykang.ho?call">
+                        <Icon name="skype" size="large" color="blue" />
+                    </a>
+                </Menu.Item>
+            </Menu.Menu>
         </Menu>
     );
 };
