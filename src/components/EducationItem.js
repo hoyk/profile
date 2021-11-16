@@ -6,7 +6,7 @@ const EducationItem = ({ img, title, dep, meta, description }) => {
         <Item style={{ margin: "20px" }}>
             <Item.Image size="tiny" src={img} />
 
-            <Item.Content>
+            <Item.Content style={{ marginRight: "20px" }}>
                 <Item.Header>{title}</Item.Header>
                 <Item.Description content={dep} />
                 <Item.Meta content={meta} />

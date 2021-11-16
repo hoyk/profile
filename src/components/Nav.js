@@ -6,7 +6,7 @@ const Nav = () => {
     const [active, setActive] = useState("");
     const handleItemClick = (e, { name }) => setActive(name);
     return (
-        <Menu borderless>
+        <Menu borderless stackable>
             {/* <Link to="/about">
                 <Menu.Item name="about" active={active === "about"} onClick={handleItemClick}>
                     ABOUT ME
