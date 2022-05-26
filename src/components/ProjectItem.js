@@ -7,7 +7,11 @@ const ProjectItem = ({ img, header, meta, description }) => {
             <Image src={img} wrapped ui={false} />
 
             <Card.Content>
-                <Card.Header>{header}</Card.Header>
+                <Card.Header>
+                    <a href="https://www.vttw.info" target="_blank">
+                        {header}
+                    </a>
+                </Card.Header>
                 <Card.Meta>
                     <span className="date">{meta}</span>
                 </Card.Meta>

@@ -23,8 +23,7 @@ const Experience = () => {
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
-                                Trading conneciton setup include FIX (Financial Information eXchange) conneciton and API
-                                connection
+                                Trading conneciton setup include FIX (Financial Information eXchange) and API connection
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />

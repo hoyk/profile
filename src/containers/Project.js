@@ -50,7 +50,7 @@ const Project = () => {
                     img="images/PositionWatch.png"
                     header="Position Watch"
                     meta="C#.NET, MySQL, SQLite"
-                    description="This project is used for monitoring current holding position. Trading strategies may came from different signal or different trading platform. It can help trader to watch their real-time position within one monitor. This project current support three major Future contracts, TX, TE, TF in TAIFEX."
+                    description="This project is used for monitoring current holding position. Trading strategies may came from different signal or different trading platform. It can help trader to watch their real-time position within one monitor. This project supports three major Future contracts, TX, TE, TF in TAIFEX."
                 />
                 <ProjectItem
                     img="images/strategy1.png"
