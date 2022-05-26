@@ -1,17 +1,13 @@
 import React from "react";
 import { Card, Image, Icon } from "semantic-ui-react";
 
-const ProjectItem = ({ img, header, meta, description }) => {
+const ProjectItem = ({ img, header, projlink, meta, description }) => {
     return (
         <Card>
             <Image src={img} wrapped ui={false} />
 
             <Card.Content>
-                <Card.Header>
-                    <a href="https://www.vttw.info" target="_blank">
-                        {header}
-                    </a>
-                </Card.Header>
+                <Card.Header>{header}</Card.Header>
                 <Card.Meta>
                     <span className="date">{meta}</span>
                 </Card.Meta>

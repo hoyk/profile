@@ -11,6 +11,7 @@ const Project = () => {
             <Card.Group stackable itemsPerRow={2}>
                 <ProjectItem
                     img="images/vttwproj.png"
+                    projlink="https://www.vttw.info"
                     header="U.S. Stocks watch NEW"
                     meta="Python, JavaScript, Django, ReactJS, CSS, MySQL, Postgre SQL"
                     description="This is update version of U.S. Stock watch, which support Responsive WebDesign (RWD), integrated customer trading analysis report and latest U.S. stock news. Other features such as stock basic information, ADR & ETF filters, categories filters, corporate actions,... are also included."
