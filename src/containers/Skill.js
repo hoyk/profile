@@ -21,7 +21,7 @@ const Skill = () => {
                         title="Python"
                         stars={4.5}
                         color="orange"
-                        description="Using python for around six years. In the field of data analysis, pandas, numpy, matplotlib are the major tools. Scrapy, Beautifulsoup for web scraping, Backtrader, vectorbt for trading and backtesting. Plotly, Streamlit for charting and backend frame."
+                        description="Using python for around seven years. In the field of data analysis, pandas, numpy, matplotlib are the major tools. Scrapy, Beautifulsoup for web scraping, Backtrader, vectorbt for trading and backtesting. Plotly, Streamlit for charting and backend frame."
                     />
 
                     <Divider />
@@ -31,7 +31,7 @@ const Skill = () => {
                         title="Django"
                         stars={4.5}
                         color="orange"
-                        description="Mainly use Django as a backend services for projects. Django REST framework are most frequently used for building standard RESTful API. Djoser and django-rest-framework-simplejwt for user access and authentication "
+                        description="Django is my frequently used backend services for projects. Stable, will developed communities' resources and highly intergration with Python language are the key features for my development. It can be a single framework for both frontend & backend in small project or a stanealong backend services in big project."
                     />
 
                     <Divider />
@@ -41,7 +41,7 @@ const Skill = () => {
                         title="Javascript"
                         stars={4}
                         color="orange"
-                        description="Most frequently used for frontend projects, especially in financial charting, data fetching and user interaction."
+                        description="Most frequently used frontend language, especially in creating financial chart, data fetching and user interaction."
                     />
 
                     <Divider />
@@ -51,7 +51,7 @@ const Skill = () => {
                         title="React"
                         stars={4}
                         color="orange"
-                        description="Most frequently used as a front-end framework, especially in projects with multiple resources, complex data structures"
+                        description="Most frequently used front-end framework, especially in projects with multiple resources, complex data structures"
                     />
                 </Item.Group>
 
