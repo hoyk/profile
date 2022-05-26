@@ -3,11 +3,12 @@ import { Card, Image, Icon } from "semantic-ui-react";
 
 const ProjectItem = ({ img, header, projlink, meta, description }) => {
     return (
-        <Card>
+        <Card href={projlink} link>
             <Image src={img} wrapped ui={false} />
 
             <Card.Content>
                 <Card.Header>{header}</Card.Header>
+
                 <Card.Meta>
                     <span className="date">{meta}</span>
                 </Card.Meta>
