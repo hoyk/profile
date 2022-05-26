@@ -13,14 +13,14 @@ const Project = () => {
                     img="images/vttwproj.png"
                     projlink="https://www.vttw.info"
                     header="U.S. Stocks watch NEW"
-                    meta="Python, JavaScript, Django, ReactJS, CSS, MySQL, Postgre SQL"
+                    meta="Python, JavaScript, Django, ReactJS, CSS, Postgre SQL"
                     description="This is update version of U.S. Stock watch, which support Responsive WebDesign (RWD), integrated customer trading analysis report and latest U.S. stock news. Other features such as stock basic information, ADR & ETF filters, categories filters, corporate actions,... are also included."
                 />
                 <ProjectItem
                     img="images/vttw.png"
                     projlink=""
                     header="U.S. Stocks watch"
-                    meta="Python, JavaScript, Django, ReactJS, CSS, MySQL, Postgre SQL"
+                    meta="Python, JavaScript, Django, ReactJS, CSS, Postgre SQL"
                     description="This project is created for demonstrating US stock market information. Data include individual stock info along with company basic data, financial report, earning calendars. Filter ETFs and ADRs with specific categories, types, and regions. Other information such as corporate actions, FIX connection monitoring,…etc."
                 />
                 <ProjectItem
