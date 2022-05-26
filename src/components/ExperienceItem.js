@@ -1,10 +1,12 @@
 import React from "react";
 import { Item, Container } from "semantic-ui-react";
 
-const ExperienceItem = ({ img, title, company, meta, description }) => {
+const ExperienceItem = ({ img, companylink, title, company, meta, description }) => {
     return (
         <Item style={{ margin: "20px" }}>
-            <Item.Image size="tiny" src={img} />
+            <a href={companylink} target="_blank">
+                <Item.Image size="tiny" src={img} />
+            </a>
 
             <Item.Content style={{ marginRight: "20px" }}>
                 <Item.Header>{title}</Item.Header>

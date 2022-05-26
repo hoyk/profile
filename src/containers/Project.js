@@ -10,8 +10,14 @@ const Project = () => {
             </Segment>
             <Card.Group stackable itemsPerRow={2}>
                 <ProjectItem
+                    img="images/vttwproj.png"
+                    header="U.S. Stocks watch NEW"
+                    meta="Python, JavaScript, Django, ReactJS, CSS, MySQL, Postgre SQL"
+                    description="This is update version of U.S. Stock watch, which support Responsive WebDesign (RWD), integrated customer trading analysis report and latest U.S. stock news. Other features such as stock basic information, ADR & ETF filters, categories filters, corporate actions,... are also included."
+                />
+                <ProjectItem
                     img="images/vttw.png"
-                    header="U.S. stocks"
+                    header="U.S. Stocks watch"
                     meta="Python, JavaScript, Django, ReactJS, CSS, MySQL, Postgre SQL"
                     description="This project is created for demonstrating US stock market information. Data include individual stock info along with company basic data, financial report, earning calendars. Filter ETFs and ADRs with specific categories, types, and regions. Other information such as corporate actions, FIX connection monitoring,…etc."
                 />
@@ -24,16 +30,16 @@ const Project = () => {
 
                 <ProjectItem
                     img="images/taiquant_1.png"
-                    header="TX Watch I"
+                    header="TX Watch"
                     meta="Python, Flask, MySQL,  JavaScript, CSS, Mongo, Redis, Plotly"
                     description="This project is created for helping day traders to find intra-day buy and sell signals. The charting is collected and calculated by tick values. By getting the real-time ticks, analyze and parse the very detail information within each Kbar and volumes in order to find the momentum and trends."
                 />
-                <ProjectItem
+                {/* <ProjectItem
                     img="images/taiquant_2.png"
                     header="TX Watch II"
                     meta="Python, Flask, Mongo, MySQL, JavaScript, CSS, Redis, Plotly"
                     description="This is created for monitoring the trend of major stocks and futures in both Taiwan and foreign market. Charts and figures are arranged and displayed by the up and down factors with eye-catching color and arrangement."
-                />
+                /> */}
                 <ProjectItem
                     img="images/TraderToGoMain.png"
                     header="Auto Trading"

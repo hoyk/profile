@@ -11,6 +11,7 @@ const Experience = () => {
             <Item.Group>
                 <ExperienceItem
                     img="images/Viewtrade.png"
+                    companylink="https://www.viewtrade.com"
                     title="Technical Support"
                     company="ViewTrade, Taipei, Taiwan"
                     meta="2020/09 ~ Now"
@@ -18,15 +19,16 @@ const Experience = () => {
                         <List>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
-                                Tech support for Asia market
+                                Tech support for FFI (Foreign Financial Institution) customers in Asia Pacific market
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
-                                FIX conneciton
+                                Trading conneciton setup include FIX (Financial Information eXchange) conneciton and API
+                                connection
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
-                                U.S. real-time market data on front-end & back-end
+                                U.S. real-time market data on front-end & back-end system
                             </List.Item>
                         </List>
                     }
@@ -36,6 +38,7 @@ const Experience = () => {
 
                 <ExperienceItem
                     img="images/Capital.png"
+                    companylink="https://capital.com.tw"
                     title="Quantitative Researcher"
                     company="Capital Securities Corp., Taipei, Taiwan"
                     meta="2019/03 ~ 2020/04"
@@ -81,6 +84,7 @@ const Experience = () => {
 
                 <ExperienceItem
                     img="images/Sinopac.png"
+                    companylink="https://www.spf.com.tw"
                     title="Proprietary Trader"
                     company="Sinopac Futures, Taipei, Taiwan"
                     meta="2017/07 ~ 2019/01"
@@ -117,6 +121,7 @@ const Experience = () => {
                 <Divider />
                 <ExperienceItem
                     img="images/amtran.gif"
+                    companylink="https://www.amtran.com.tw"
                     title="Customer Service Manager"
                     company="AmTran Technology, Suchou, China"
                     meta="2013/05 ~ 2017/03"
@@ -165,6 +170,7 @@ const Experience = () => {
                 <Divider />
                 <ExperienceItem
                     img="images/Qisda.png"
+                    companylink="https://www.qisda.com.tw"
                     title="Senior Engineer"
                     company="Qisda, Taipei, Taiwan"
                     meta="2010/09 ~ 2013/04"
@@ -202,6 +208,7 @@ const Experience = () => {
                 <Divider />
                 <ExperienceItem
                     img="images/acer.jfif"
+                    companylink="https://www.acer.com"
                     title="Field Trial Engineer"
                     company="Acer, Taipei, Taiwan"
                     meta="2008/12 ~ 2010/08"
