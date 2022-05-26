@@ -31,7 +31,7 @@ const Skill = () => {
                         title="Django"
                         stars={4.5}
                         color="orange"
-                        description="Django is my frequently used backend services for projects. Stable, will developed communities' resources and highly intergration with Python language are the key features for my development. It can be a single framework for both frontend & backend in small project or a stanealong backend services in big project."
+                        description="Django is the frequently used backend services for projects. Stable, will developed communities' resources and highly intergration with Python language are the key features for development. It can be a single framework for both frontend & backend in small project or a standalone backend services in big project."
                     />
 
                     <Divider />
