@@ -19,11 +19,11 @@ const Experience = () => {
                         <List>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
-                                Tech support for FFI (Foreign Financial Institution) customers in Asia Pacific market
+                                Tech support for Foreign Financial Institution (FFI) customers in Asia Pacific market
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
-                                Trading conneciton setup include FIX (Financial Information eXchange) and API connection
+                                Trading conneciton setup include Financial Information eXchange (FIX) and API connection
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
