@@ -48,9 +48,14 @@ const Nav = () => {
                     <a href="skype:ykang.ho?call">
                         <Icon name="skype" size="large" color="blue" />
                     </a>
-                    <Link to="files/HOYIKANG.pdf" target="_blank" download style={{ marginLeft: "20px" }}>
-                        <Icon name="download" size="large" color="grey" />
-                    </Link>
+                    <a
+                        href="https://1drv.ms/b/s!AmtZGfwJhhP6i-QL-UABE1XATC8ssw?e=tkEkhu"
+                        target="_blank"
+                        download
+                        style={{ marginLeft: "20px" }}
+                    >
+                        <Icon name="download" color="grey" />
+                    </a>
                 </Menu.Item>
             </Menu.Menu>
         </Menu>
