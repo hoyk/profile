@@ -49,11 +49,7 @@ const Experience = () => {
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
-                                Quoting and Ordering API connection, RESTful API development
-                            </List.Item>
-                            <List.Item>
-                                <List.Icon name="caret right" color="orange" />
-                                Trading strategy development, historical data back testing
+                                Trading strategy development, historical data back testing in Backtrader
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
@@ -61,15 +57,11 @@ const Experience = () => {
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
-                                Trading software development, quoting system and ordering system development. (Link)
+                                Trading software development for quoting and ordering system.
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
-                                Real-time website quoting & charting system (https://taiquant.com)
-                            </List.Item>
-                            <List.Item>
-                                <List.Icon name="caret right" color="orange" />
-                                Financial data collection, trading database setup and maintenance
+                                Financial data organization, trading database adn visualized website setup.
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
@@ -129,10 +121,6 @@ const Experience = () => {
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
                                 Lead a global customer service team
-                            </List.Item>
-                            <List.Item>
-                                <List.Icon name="caret right" color="orange" />
-                                Reduce customer complaints and minimize company after
                             </List.Item>
                             <List.Item>
                                 <List.Icon name="caret right" color="orange" />
