@@ -9,31 +9,31 @@ import Project from "./containers/Project";
 import Skill from "./containers/Skill";
 
 function App() {
-    return (
-        <Container style={{ marginTop: "10px" }}>
-            <Grid>
-                <Grid.Column mobile={16} computer={4}>
-                    <Left />
-                </Grid.Column>
-                <Grid.Column mobile={16} computer={12}>
-                    <Router>
-                        <Nav />
-                        <Segment>
-                            <Routes>
-                                <Route path="" element={<Project />} />
-                                <Route path="/about" element={<About />} />
-                                <Route path="/education" element={<Education />} />
-                                <Route path="/experience" element={<Experience />} />
-                                <Route path="/projects" element={<Project />} />
-                                <Route path="/skills" element={<Skill />} />
-                            </Routes>
-                        </Segment>
-                        {/* <Header /> */}
-                    </Router>
-                </Grid.Column>
-            </Grid>
-        </Container>
-    );
+  return (
+    <Container style={{ marginTop: "10px" }}>
+      <Grid>
+        <Grid.Column mobile={16} computer={4}>
+          <Left />
+        </Grid.Column>
+        <Grid.Column mobile={16} computer={12}>
+          <Router>
+            <Nav />
+            <Segment>
+              <Routes>
+                <Route path="" element={<Experience />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/education" element={<Education />} />
+                <Route path="/experience" element={<Experience />} />
+                <Route path="/projects" element={<Project />} />
+                <Route path="/skills" element={<Skill />} />
+              </Routes>
+            </Segment>
+            {/* <Header /> */}
+          </Router>
+        </Grid.Column>
+      </Grid>
+    </Container>
+  );
 }
 
 export default App;
