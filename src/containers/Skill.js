@@ -21,7 +21,7 @@ const Skill = () => {
             title="Python"
             stars={4.5}
             color="orange"
-            description="Using python for around seven years. In the field of data analysis, pandas, numpy, matplotlib are the major tools. Scrapy, Beautifulsoup for web scraping, Backtrader, vectorbt for trading and backtesting. Plotly, Streamlit for charting and backend frame."
+            description="Using python for around eight years. In the field of data analysis, pandas, numpy, matplotlib are the major tools. Scrapy, Beautifulsoup for web scraping, Backtrader, vectorbt for trading and backtesting. Plotly, Streamlit for charting and backend frame."
           />
 
           <Divider />
@@ -31,7 +31,7 @@ const Skill = () => {
             title="Django"
             stars={4.5}
             color="orange"
-            description="Django is the most frequently used backend services for my projects. Stable, will developed communities' resources and highly intergration with Python language are the key features for my project development."
+            description="Most frequently used backend services for my projects. Stable, will developed communities' resources and highly intergration with Python language are the key features for my project development."
           />
 
           <Divider />
@@ -51,7 +51,7 @@ const Skill = () => {
             title="React.js"
             stars={4}
             color="orange"
-            description="Front-end framework for all my projects. Most frequently used packages such as Nextjs, Zustand, react-query,...etc"
+            description="Front-end framework for all the projects. Most frequently used packages such as Nextjs, Zustand, react-query,...etc"
           />
         </Item.Group>
 
