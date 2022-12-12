@@ -38,7 +38,7 @@ const Experience = () => {
         <ExperienceItem
           img="images/Capital.png"
           companylink="https://capital.com.tw"
-          title="Quantitative Researcher"
+          title="Proprietary Trader"
           company="Capital Securities Corp., Taipei, Taiwan"
           meta="2019/03 ~ 2020/04"
           description={
