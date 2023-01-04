@@ -25,7 +25,7 @@ const Left = () => {
 
         <NameItem title="Name" content="Ho Yi Kang" />
         <NameItem title="Email" content="ykang.ho@gmail.com" />
-        <NameItem title="Cell" content="0926-169-252" />
+        <NameItem title="Cell" content="+886 926169252" />
         <NameItem title="Skype" content="ykang.ho" />
       </Segment>
     </div>
