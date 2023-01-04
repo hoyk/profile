@@ -21,7 +21,7 @@ const Skill = () => {
             title="Python"
             stars={4.5}
             color="orange"
-            description="Using python for around eight years. In the field of data analysis, pandas, numpy, matplotlib are the major tools. Scrapy, Beautifulsoup for web scraping, Backtrader, vectorbt for trading and backtesting. Plotly, Streamlit for charting and backend frame."
+            description="In the field of data analysis, pandas, numpy, matplotlib are the major tools. Scrapy, Beautifulsoup for web scraping, Backtrader, vectorbt for trading and backtesting. Plotly, Streamlit for charting and backend frame."
           />
 
           <Divider />
@@ -31,7 +31,7 @@ const Skill = () => {
             title="Django"
             stars={4.5}
             color="orange"
-            description="Most frequently used backend services for my projects. Stable, will developed communities' resources and highly intergration with Python language are the key features for my project development."
+            description="Most frequently used backend framework for the projects. Stable, will developed communities' resources and highly intergration with Python language for development."
           />
 
           <Divider />
@@ -41,7 +41,7 @@ const Skill = () => {
             title="Javascript"
             stars={4}
             color="orange"
-            description="Most frequently used frontend language, especially in creating financial chart, data fetching and user interaction."
+            description="Most frequently used frontend language, in the field of creating financial chart, data fetching and website."
           />
 
           <Divider />

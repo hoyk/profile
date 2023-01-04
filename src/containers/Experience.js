@@ -23,11 +23,11 @@ const Experience = () => {
               </List.Item>
               <List.Item>
                 <List.Icon name="caret right" color="orange" />
-                Trading conneciton and tech support for Financial Information eXchange (FIX) and API
+                Trading connection and tech support for Financial Information eXchange (FIX) and API
               </List.Item>
               <List.Item>
                 <List.Icon name="caret right" color="orange" />
-                U.S. real-time market data on front-end & back-end system tech support
+                U.S. data on front-end & back-end system tech support
               </List.Item>
             </List>
           }
@@ -49,7 +49,7 @@ const Experience = () => {
               </List.Item>
               <List.Item>
                 <List.Icon name="caret right" color="orange" />
-                Trading strategy development, historical data back testing in Backtrader
+                Trading strategy development, historical data back testing
               </List.Item>
               <List.Item>
                 <List.Icon name="caret right" color="orange" />
@@ -61,7 +61,7 @@ const Experience = () => {
               </List.Item>
               <List.Item>
                 <List.Icon name="caret right" color="orange" />
-                Financial data organization, trading database adn visualized website setup.
+                Financial data organization, trading database and visualized website setup.
               </List.Item>
               <List.Item>
                 <List.Icon name="caret right" color="orange" />

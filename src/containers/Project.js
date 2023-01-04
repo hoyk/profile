@@ -14,7 +14,7 @@ const Project = () => {
           projlink=""
           header="U.S. Stocks market news project"
           meta="ReactJS, Nextjs, CSS, Postgre SQL"
-          description="Front project for U.S. market news content. Support both English and Chinese (Traditional/Simplified) news."
+          description="Front-end project for U.S. market news content. Support both English and Chinese (Traditional/Simplified) news."
         />
         <ProjectItem
           img="images/vttwproj.png"
